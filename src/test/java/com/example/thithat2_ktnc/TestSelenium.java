@@ -35,11 +35,11 @@ public class TestSelenium {
         WebElement inputDiemDen = chromeDriver.findElement(By.xpath("//a[contains(text(),'Huế')]"));
         inputDiemDen.click();
 
-
-//        WebElement clickNgayDi = chromeDriver.findElement(By.xpath("//div[@class='ui-datepicker-row-break']"));
+// chao cac ban
+//        WebElement clickNgayDi = chromeDriver.findElement(By.xpath("//input[@id='depatureDate']"));
 //        clickNgayDi.click();
 //
-//        WebElement clickNgayDen = chromeDriver.findElement(By.xpath("//li[@class='col-xs-6 col-sm-3 li-item-des des-chd flight_from_3']"));
+//        WebElement clickNgayDen = chromeDriver.findElement(By.xpath("//tbody/tr[2]/td[4]/a[1]"));
 //        clickNgayDen.click();
 
         WebElement timChuyen = chromeDriver.findElement(By.xpath("//input[@id='btnSearchFlight']"));
